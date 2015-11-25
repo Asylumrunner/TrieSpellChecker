@@ -1,7 +1,7 @@
 # TrieSpellChecker
 A spell-checking program in Java, which uses a Trie data structure to define a dictionary of words, and compare input against that dictionary
 
-##What is a Trie?
+## What is a Trie?
 
 A Trie is a tree-based data structure in which the position of a node, rather than the node itself, determines the key associated with that node. Because of this, and the fact that the descendants of a key all have that key as a prefix, these trees are sometimes called Prefix Trees.
 
@@ -13,7 +13,7 @@ By the nature of a trie, lookup of words is extremely fast. It is O(n) (linear w
 
 On top of this, a simple prefix navigation of the trie is capable of producing every single key in the trie in alphabetical order, which is extremely useful for language-based applications.
 
-## Downsides of tries
+## Downsides of Tries
 
 The downside of the trie as a data structure for spellchecking is that it can be incredibly space-intensive, as each node can have a maximum number of outgoing edges equal to the number of valid characters in the alphabet (in English, 26). As a result, a trie representing English can have as many as 26 times as many nodes at depth n as at depth n-.
 
