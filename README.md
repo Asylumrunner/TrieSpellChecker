@@ -32,8 +32,8 @@ The trie could be optimized further through compression. For instance, say we ha
 
 In this subtrie, d is the root, which then branches into two children, o and a. Again, none of these values are stored in the nodes themselves, but are rather defined by the positions of the nodes. We can call a node *redundant* if it has the following properties
 
--it is NOT the root node
--it has an outdegree of one
+1. It is NOT the root node
+2. It has an outdegree of one
 
 In our example, o and a are both redundant. Neither is the root, and both have only one child. Recognizing these redundant nodes is the key to compression, as now we can compress by simply merging all redundant nodes with their singular children. In the case of our example trie, the result would look like this.
 	
