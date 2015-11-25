@@ -15,7 +15,7 @@ On top of this, a simple prefix navigation of the trie is capable of producing e
 
 ## Downsides Of Tries
 
-The downside of the trie as a data structure for spellchecking is that it can be incredibly space-intensive, as each node can have a maximum number of outgoing edges equal to the number of valid characters in the alphabet (in English, 26). As a result, a trie representing English can have as many as 26 times as many nodes at depth n as at depth n-.
+The downside of the trie as a data structure for spellchecking is that it can be incredibly space-intensive, as each node can have a maximum number of outgoing edges equal to the number of valid characters in the alphabet (in English, 26). As a result, a trie representing English can have as many as 26 times as many nodes at depth n as at depth n-1.
 
 ## Optimal Trie Conditions
 
