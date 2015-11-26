@@ -7,7 +7,7 @@ A Trie is a tree-based data structure in which the position of a node, rather th
 
 [Learn more about tries here](https://en.wikipedia.org/wiki/Trie)
 
-## Why Utlize A Trie?
+## Why Utilize A Trie?
 
 By the nature of a trie, lookup of words is extremely fast. It is O(n) (linear worst-case time compelxity), as all a program has to to is navigate down a series of edges representing each additional character added to the key. As a result, a lookup method will only traverse a number of edges equal to the number of characters in the key.
 
